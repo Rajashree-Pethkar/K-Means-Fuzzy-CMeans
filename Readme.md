@@ -15,6 +15,7 @@ o Update step:
 
 
 Fuzzy-CMeans:
+
 1. In the experiment, I first parsed the data to create a numpy array.
 2. Then assigned random probabilities i.e. membership grades to each data point in the data
 set.
