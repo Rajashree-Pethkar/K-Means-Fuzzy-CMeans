@@ -4,9 +4,10 @@ K-Means:
 2. To execute the k means, I used the clusters from {2, 3, 4, 5, 6, 7, 8, 9, 10} and ran the
 algorithm 10 times for each k value.
 3. Then randomly selected centroids to form clusters according to the value of k and repeated
-below steps until the algorithm has converged, o Assignment step:
-4. First, took the Euclidean distance of each point and each centroid.
+below steps until the algorithm has converged, 
+   1. Assignment step:
         ![](Images/euclidean-distance.png)
+4. First, took the Euclidean distance of each point and each centroid.
 5. If the distance between any point and the centroid is lowest among all the centroids, then added it to that cluster.
 o Update step:
 6. Updated the centroid value using,
