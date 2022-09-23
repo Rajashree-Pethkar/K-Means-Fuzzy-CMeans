@@ -7,11 +7,16 @@ algorithm 10 times for each k value.
 below steps until the algorithm has converged, 
    1. Assignment step:
       i. First, took the Euclidean distance of each point and each centroid.
+      
         ![](Images/euclidean-distance.png)
+        
       ii. If the distance between any point and the centroid is lowest among all the centroids, then added it to that cluster.
+      
    2. Update step:
       i. Updated the centroid value using,
+      
         ![](Images/k-means-centroid-value-update.png)
+        
 7. The algorithm is converged when no assignments change which means that the centroid values do not update.
 
 
