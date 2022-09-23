@@ -6,11 +6,11 @@ algorithm 10 times for each k value.
 3. Then randomly selected centroids to form clusters according to the value of k and repeated
 below steps until the algorithm has converged, 
    1. Assignment step:
+      i. First, took the Euclidean distance of each point and each centroid.
         ![](Images/euclidean-distance.png)
-4. First, took the Euclidean distance of each point and each centroid.
-5. If the distance between any point and the centroid is lowest among all the centroids, then added it to that cluster.
-o Update step:
-6. Updated the centroid value using,
+      ii. If the distance between any point and the centroid is lowest among all the centroids, then added it to that cluster.
+   2. Update step:
+      i. Updated the centroid value using,
         ![](Images/k-means-centroid-value-update.png)
 7. The algorithm is converged when no assignments change which means that the centroid values do not update.
 
